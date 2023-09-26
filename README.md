@@ -18,7 +18,7 @@ Before you begin, make sure you have the following installed on your computer:
 1. Clone the repository to your local machine:
 
    ```bash
-   git clone https://github.com/yourusername/ecobazar.git
+   git clone https://github.com/weezyjagbabe/ecobazar.git
    ```
 
 2. Navigate to the project directory:
