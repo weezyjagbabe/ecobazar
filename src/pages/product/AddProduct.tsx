@@ -39,8 +39,11 @@ function AddProduct() {
     }, [id])
 
     function handleChange(event: ChangeEvent<HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement>) {
+        //console.log(product);
         const {name, value} = event.target;
+        //console.log(name, value);
         setProduct({...product, [name]: value} as Product);
+        //console.log(product);
     }
 
     function handleSubmit(event: FormEvent<HTMLFormElement>) {
