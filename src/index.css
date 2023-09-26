@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    @apply font-poppins
+}
+
+.input {
+    @apply p-2 rounded-md placeholder-gray-500 placeholder:text-sm border border-gray-400 w-full
+}
+
+.filter {
+    @apply hover:text-green-600
+}
